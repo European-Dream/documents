@@ -11,27 +11,28 @@ No technical knowledge is required.
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [1. How our documents are structured](#1-how-our-documents-are-structured)
-- [2. What is Metadata?](#2-what-is-metadata)
-- [3. Project Metadata](#3-project-metadata)
-  - [Phase](#phase)
-  - [Scope](#scope)
-- [4. Document Metadata](#4-document-metadata)
-  - [Document State](#document-state)
+- [How our documents are structured](#how-our-documents-are-structured)
+- [What is Metadata?](#what-is-metadata)
+  - [Project Metadata](#project-metadata)
+    - [Project Phase](#project-phase)
+    - [Project Scope](#project-scope)
+  - [Document Metadata](#document-metadata)
+    - [Document State](#document-state)
     - [How to update the State](#how-to-update-the-state)
-  - [Document Version](#document-version)
-    - [First number (X): changes in substance](#first-number-x-changes-in-substance)
-    - [Second number (Y): changes in form](#second-number-y-changes-in-form)
-  - [Examples](#examples)
-- [5. When must the version be updated?](#5-when-must-the-version-be-updated)
-- [6. Good practices for contributors](#6-good-practices-for-contributors)
-- [7. Why this matters](#7-why-this-matters)
+    - [Document Version](#document-version)
+      - [First number (X): changes in substance](#first-number-x-changes-in-substance)
+      - [Second number (Y): changes in form](#second-number-y-changes-in-form)
+      - [Examples](#examples)
+      - [When must the version be updated?](#when-must-the-version-be-updated)
+    - [Document Language Code](#document-language-code)
+- [Good practices for contributors](#good-practices-for-contributors)
+- [Why this matters](#why-this-matters)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ---
 
-## 1. How our documents are structured
+## How our documents are structured
 
 All our documents are written in **Markdown** and follow the same structure:
 
@@ -43,6 +44,7 @@ Project:
 Document:
   State: Draft
   Version: 1.0
+  LanguageCode: en
 ---
 # Title
 
@@ -60,7 +62,7 @@ It helps everyone understand:
 
 ---
 
-## 2. What is Metadata?
+## What is Metadata?
 
 Metadata is a short block of information placed **at the very top of the document**.
 
@@ -73,7 +75,7 @@ You should **always keep this section up to date** when editing a document.
 
 ---
 
-## 3. Project Metadata
+### Project Metadata
 
 ```yaml
 Project:
@@ -81,7 +83,7 @@ Project:
   Scope: Global
 ```
 
-### Phase
+#### Project Phase
 
 **Phase** describes the current stage of the overall project.
 
@@ -94,15 +96,15 @@ Project:
 
 ---
 
-### Scope
+#### Project Scope
 
 **Scope** describes **the area of the project the document relates to**.
 
 A Scope can refer to:
 
 - **The project as a whole** (founding documents, etc): `Global`.
-- **A functional area** of the project: `Communication`, `Finance`, `Legal`.
-- **A geographical area**: `Estonia`, `Portugal`, etc.
+- **A functional area** of the project: `Communication`, `Finance`, or `Legal`.
+- **A geographical area** (member state of the European Union): `Estonia`, `Portugal`, etc.
 
 The Scope helps readers immediately understand **the context and focus** of a document.
 
@@ -111,19 +113,20 @@ The Scope helps readers immediately understand **the context and focus** of a do
 
 ---
 
-## 4. Document Metadata
+### Document Metadata
 
 ```yaml
 Document:
   State: Draft
   Version: 1.0
+  LanguageCode: en
 ```
 
 This section is the most important one to update when contributing.
 
 ---
 
-### Document State
+#### Document State
 
 **State** describes the current status of the document.
 
@@ -149,14 +152,14 @@ Possible values are:
 
 ---
 
-### Document Version
+#### Document Version
 
 **Version** is written as two numbers: **X.Y**
 For example: `1.0`, `1.1`, `2.0`
 
 These numbers explain **what kind of change was made**.
 
-#### First number (X): changes in substance
+##### First number (X): changes in substance
 
 The first number (**X**) increases when the **meaning or content** of the document changes.
 
@@ -172,7 +175,7 @@ The first version always starts at **1**.
 
 ---
 
-#### Second number (Y): changes in form
+##### Second number (Y): changes in form
 
 The second number (**Y**) increases when only the **form** changes.
 
@@ -189,7 +192,7 @@ The second number always starts at **0**.
 
 ---
 
-### Examples
+##### Examples
 
 | Change made                    | New version |
 | ------------------------------ | ----------- |
@@ -201,7 +204,7 @@ The second number always starts at **0**.
 
 ---
 
-## 5. When must the version be updated?
+##### When must the version be updated?
 
 You must update the version number whenever:
 
@@ -218,7 +221,15 @@ As a general rule:
 
 ---
 
-## 6. Good practices for contributors
+#### Document Language Code
+
+This field is quite self-explanatory.
+
+It should be set to the language code of the document: `en` for English, `fr` for French, etc.
+
+---
+
+## Good practices for contributors
 
 - Always check the **Metadata before and after** editing a document
 - Keep the Metadata **honest and accurate**
@@ -228,7 +239,7 @@ As a general rule:
 
 ---
 
-## 7. Why this matters
+## Why this matters
 
 This system helps everyone:
 
