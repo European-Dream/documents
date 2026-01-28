@@ -48,6 +48,10 @@ Not all platforms play the same role, and not all are actively used at this stag
     - [Medium Role](#medium-role)
     - [Medium Tone](#medium-tone)
     - [Medium Profile](#medium-profile)
+  - [Stoat](#stoat)
+    - [Stoat Role](#stoat-role)
+    - [Stoat Tone](#stoat-tone)
+    - [Stoat Profile](#stoat-profile)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -67,17 +71,18 @@ Our approach prioritises consistency, clarity, and meaningful interaction over v
 
 These platforms are our primary channels for communication, collaboration, and publication. They are actively maintained and reflect our current editorial tone.
 
-- **[Mastodon](https://mastodon.social/@european_dream)** — Announcements, open discussions, and decentralised dialogue.
-- **[Bluesky](https://bsky.app/profile/european-dream.eu)** — Announcements, short-form updates and interactions.
-- **[GitHub](https://github.com/European-Dream/)** — Documentation, collaborative work, and source code publication.
-- **[LinkedIn](https://www.linkedin.com/company/european-dream/)** — Announcements, institutional articles, and outreach.
-- **[Medium](https://medium.com/@european_dream)** — Long-form articles and essays exploring the themes and questions at the core of the European Dream initiative.
+- **[Mastodon](https://mastodon.social/@european_dream)** – Announcements, open discussions, and decentralised dialogue.
+- **[Bluesky](https://bsky.app/profile/european-dream.eu)** – Announcements, short-form updates and interactions.
+- **[GitHub](https://github.com/European-Dream/)** – Documentation, collaborative work, and source code publication.
+- **[LinkedIn](https://www.linkedin.com/company/european-dream/)** – Announcements, institutional articles, and outreach.
+- **[Medium](https://medium.com/@european_dream)** – Essays, interviews, and weekly journal.
+- **[Stoat (ex-Revolt)](https://stt.gg/NfjD0BwP)** – Live chat.
 
 ### Relay-Only Platforms
 
 These platforms are used in a limited manner, primarily to relay links to new website pages or publications, **without** platform-specific engagement.
 
-- **[X (ex-Twitter)](https://x.com/EuropeanDream_)** — Link sharing only.
+- **[X (ex-Twitter)](https://x.com/EuropeanDream_)** – Link sharing only.
 
 ### Reserved or Inactive Platforms
 
@@ -98,7 +103,7 @@ The following accounts are currently inactive or lightly used. They are reserved
 
 #### Website Role
 
-Our authoritative home. The website hosts official publications — papers and analyses that have been deliberated and accepted through community consensus — as well as foundational documents, project structure, and onboarding materials. It is the canonical source for what European Dream is and stands for.
+Our authoritative home. The website hosts official publications – papers and analyses that have been deliberated and accepted through community consensus – as well as foundational documents, project structure, and onboarding materials. It is the canonical source for what European Dream is and stands for.
 
 #### Website Tone
 
@@ -118,7 +123,7 @@ European Dream is a non-profit civic initiative, rooted in the European Union, e
 
 #### Mastodon Role
 
-Our primary space for decentralised dialogue and community building. Mastodon's values — openness, federation, and resistance to centralised control — align closely with our vision. We use it for announcements, open discussions, and exchanges with like-minded communities in the Fediverse.
+Our primary space for decentralised dialogue and community building. Mastodon's values – openness, federation, and resistance to centralised control – align closely with our vision. We use it for announcements, open discussions, and exchanges with like-minded communities in the Fediverse.
 
 #### Mastodon Tone
 
@@ -190,7 +195,7 @@ An experimental initiative exploring non-transactional human cooperation within 
 
 ## Contributing
 
-We welcome contributors of all backgrounds and skill levels. Whether you are a developer, writer, translator, or simply curious — there is space for you here.
+We welcome contributors of all backgrounds and skill levels. Whether you are a developer, writer, translator, or simply curious – there is space for you here.
 
 Each repository has its own contributing guidelines. A good starting point is the [website contributing guide](https://github.com/European-Dream/website/blob/main/CONTRIBUTING.md).
 
@@ -245,13 +250,13 @@ Whether you are a researcher, a practitioner, or simply someone who resonates wi
 
 Our space for long-form reflection, interviews, essays, and the European Dream Weekly Journal. Medium reaches readers who enjoy thoughtful, narrative content.
 
-We publish here content that has not been tested against community-wide consensus: personal essays, open questions, hypotheses, and individual or small-group perspectives. Interviews — with everyday EU citizens and recognised voices alike — also appear here.
+We publish here content that has not been tested against community-wide consensus: personal essays, open questions, hypotheses, and individual or small-group perspectives. Interviews – with everyday EU citizens and recognised voices alike – also appear here.
 
 By contrast, finalised papers and analyses that have gone through our collective deliberation process are published as official publications on the main website. Medium is where we think; the website is where we conclude.
 
 #### Medium Tone
 
-Reflective, narrative, and personal — especially for the Weekly Journal. Essays may be more analytical, but always human. This is where we think aloud, test ideas, and invite readers into our process rather than presenting polished conclusions.
+Reflective, narrative, and personal – especially for the Weekly Journal. Essays may be more analytical, but always human. This is where we think aloud, test ideas, and invite readers into our process rather than presenting polished conclusions.
 
 #### Medium Profile
 
@@ -272,4 +277,23 @@ We use this Medium profile as a complement to [our website](https://european-dre
 
 
 What appears here is neither official publication nor internal deliberation, but a space for moments of reflection and feedback, where our ideas are tested against reality and, at times, against the state of the world as it is.
+```
+### Stoat
+
+#### Stoat Role
+
+Our living room. Stoat is where the community gathers – to chat, think together, or simply share a moment. It's the closest thing we have to a warm café with a fireplace. Open-source, because the tools we use should reflect the world we want to build
+
+#### Stoat Tone
+
+Warm, unhurried, and human. This is our home – where we gather as friends around a table, share ideas over coffee, and take the time to listen to one another.
+
+#### Stoat Profile
+
+**Server Description**
+
+```text
+Dreaming and building a post-transactional world, rooted in the European Union.
+
+https://european-dream.eu
 ```
