@@ -3,172 +3,100 @@ Project:
   Phase: Bootstrap
   Scope: Global
 Document:
-  State: Draft
-  Version: 0.0
+  State: Done
+  Version: 1.0
+  LanguageCode: en
 ---
-# European Dream
+# European Dream – Documents
 
----
+This repository contains the official public documents of European Dream, a non-profit civic initiative exploring post-transactional social organisation within the European Union.
 
-## Purpose
-
-European Dream is an experimental initiative exploring whether and how **human cooperation can function with a reduced dependence on currency-based, transactional relations**, within the legal, social, and cultural framework of the European Union.
-
-The project does **not** propose a ready-made alternative system.  
-Its purpose is to **test, document, and evaluate** possibilities that do not yet have a stable or agreed form.
+For the full vision and context, see [A Call To Dream](https://european-dream.eu/a-call-to-dream/) on our website.
 
 ---
 
-## Foundational Assumption
+## What is in this repository
 
-Modern societies are structurally organised around **currency as the primary coordination mechanism**:
-- value is expressed almost exclusively through price,
-- relationships are mediated by transactions,
-- access to resources is conditional on monetary exchange.
+### Foundational documents
 
-European Dream starts from the assumption that:
-> this model, while efficient, may be **insufficient** to address long-term social cohesion, ecological limits, and human well-being.
+Core texts that define who we are and where we are going.
 
-This assumption is **not treated as a truth**, but as a **hypothesis to be examined through practice**.
+| Document | Description |
+|----------|-------------|
+| [Manifesto](foundations/Manifesto.md) | "A Call To Dream" – our founding text on why humanity needs to evolve beyond transactional relationships |
+| [Goals](foundations/Goals.md) | Our four pillars: Explore, Dream, Architect, Experiment |
+| [Roadmap](foundations/Roadmap.md) | A living timeline for 2026–2028 and beyond |
 
----
+### Communication
 
-## Direction of Exploration (Open by Design)
+Strategic documents for how we present ourselves to the world.
 
-The initiative explores paths **away from purely transactional logic**, potentially involving:
-- partial de-monetisation of certain activities,
-- non-monetary forms of contribution and reciprocity,
-- shared responsibility over shared ownership,
-- trust-based or commons-oriented coordination models.
+| Document | Description |
+|----------|-------------|
+| [Social Media Strategy](communication/Social_Media_Strategy.md) | Platform roles, tones, and profiles for our online presence |
 
-No specific model is privileged.  
-Failure is an acceptable and expected outcome.
+### Identity
 
----
+Visual assets for the European Dream brand, located in [`identity/`](identity/).
 
-## Constraints (Non-Negotiable)
-
-- **No ideological alignment** (political, religious, or economic)
-- **No rejection of law, institutions, or modern life**
-- **No exclusion based on beliefs or economic views**
-- **No dependency on full-time commitment**
-- **No promise of economic security**
-
-Participation must remain compatible with:
-- EU legal frameworks,
-- individual autonomy,
-- external employment and income.
+The name "European Dream", its logo, and visual identity are protected and not licensed for reuse. See the licensing section below.
 
 ---
 
-## What This Is (and Is Not)
+## How documents are structured
 
-### This is:
-- A structured experimental space
-- A documentation-first initiative
-- A gradual, reversible exploration
-- A legally grounded project (ASBL → AISBL)
+All documents follow a consistent format with metadata at the top:
 
-### This is not:
-- A utopian blueprint
-- A commune, sect, or protest movement
-- A replacement for existing social systems
-- An anti-market or anti-currency campaign
+```yaml
+Project:
+  Phase: Bootstrap       # Current project stage
+  Scope: Global          # Area the document relates to
+Document:
+  State: Done            # Draft, Proposal, or Done
+  Version: 1.0           # Semantic versioning (X.Y)
+  LanguageCode: en       # Language code
+```
 
-Currency is **questioned**, not abolished.
-
----
-
-## Legal & Organisational Path
-
-1. Conceptual and practical bootstrapping  
-2. Belgian ASBL as an experimental vehicle  
-3. Possible conversion to AISBL for European scope  
-
-Legal structure serves **experimentation**, not ideology.
+For details on versioning and contribution workflow, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ---
 
-## Status
+## Key principles
 
-🟡 Early bootstrapping  
-Everything is **tentative**, **documented**, and **revisable**.
+These principles guide everything we do:
 
----
-
-## Contribution
-
-Contributions are welcome from people willing to:
-- think critically,
-- accept uncertainty,
-- engage without ideological filtering.
-
-No consensus is required.  
-Only intellectual honesty and good faith.
+- **Experiment, not prescribe** – Currency is questioned, not abolished
+- **Inclusive by design** – No ideological alignment required
+- **Legally grounded** – Compatible with EU law and external employment
+- **Documentation-first** – Reversible exploration where failure is acceptable
+- **Patience over urgency** – Only importance matters; any rhythm is acceptable
 
 ---
 
-## Disclaimer
+## Contributing
 
-European Dream does not claim to know:
-- what should replace transactional society,
-- whether such a transition is desirable,
-- or whether it is possible at all.
+We welcome contributions from people willing to think critically, accept uncertainty, and engage without ideological filtering. No consensus is required – only intellectual honesty and good faith.
 
-The project exists precisely because these answers are unknown.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for how to work with our documents.
 
 ---
 
 ## Licensing
 
-This repository contains **both software (website code)** and **editorial content**, which are licensed **separately**.
+### Code
 
-### Website Code
+All source code in this repository is licensed under the **European Union Public Licence v1.2 (EUPL-1.2)**.
 
-All source code in this repository — including but not limited to:
+See the [`LICENSE`](LICENSE) file for the full text.
 
-* HTML templates
-* CSS stylesheets
-* JavaScript / TypeScript
-* Build scripts and tooling
+### Content
 
-is licensed under the **European Union Public License v1.2 (EUPL-1.2)**.
+All non-code content – articles, publications, images, and diagrams – is licensed under **Creative Commons Attribution–ShareAlike 4.0 International (CC BY-SA 4.0)**.
 
-See the [`LICENSE`](./LICENSE) file for the full license text.
+Attribution should be given to **European Dream**.
 
-SPDX identifier:
+### Identity
 
-```text
-EUPL-1.2
-```
+The name **European Dream**, its logo, and associated visual identity are **not** covered by the licences above. They are protected and not licensed for reuse.
 
-### Website Content
-
-All non-code content — including but not limited to:
-
-* Textual content (articles, pages, documentation)
-* Publications and reports
-* Images, diagrams, and illustrations (unless otherwise stated)
-
-is licensed under the **Creative Commons Attribution–ShareAlike 4.0 International License (CC BY-SA 4.0)**.
-
-SPDX identifier:
-
-```text
-CC-BY-SA-4.0
-```
-
-Attribution must be given to **European Dream**.
-
-### Name, Logo and Visual Identity
-
-The name **European Dream**, its logo(s), and associated visual identity elements (collectively, the “European Dream Identity”) are **not** covered by the licences
-above.
-
-They are **not licensed** under the EUPL-1.2 nor under CC BY-SA 4.0.
-
-The European Dream Identity may not be used in a manner that suggests official affiliation, endorsement, or representation without prior authorisation.
-
-Nominative use (i.e. factual reference to the project) is permitted.
-
-Forks, derivative works, or independent initiatives based on the licensed code or content must use a **different name and visual identity**.
+Forks or derivative works based on this content must use a different name and visual identity. Nominative use (factual reference to the project) is permitted.
