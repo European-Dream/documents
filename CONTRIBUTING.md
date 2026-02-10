@@ -42,9 +42,9 @@ Project:
   Phase: Bootstrap
   Scope: Global
 Document:
+  LanguageCode: en
   State: Draft
   Version: 1.0
-  LanguageCode: en
 ---
 # Title
 
