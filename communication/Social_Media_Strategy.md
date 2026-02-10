@@ -3,6 +3,7 @@ Project:
   Phase: Bootstrap
   Scope: Communication
 Document:
+  LanguageCode: en
   State: Done
   Version: 1.0
 ---

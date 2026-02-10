@@ -3,6 +3,7 @@ Project:
   Phase: Bootstrap
   Scope: Global
 Document:
+  LanguageCode: en
   State: Done
   Version: 1.0
 ---

@@ -11,6 +11,12 @@ interface Metadata {
     Scope: 'Global' | FunctionalScope | GeographicalScope
   }
   Document: {
+    /**
+     * ISO 639-1 Alpha-2 code.
+     *
+     * Examples: 'en' for English, 'fr' for French, 'de' for German, etc.
+     */
+    LanguageCode: string
     State: 'Draft' | 'Proposal' | 'Done'
     /**
      * Version number: `X.Y`.
@@ -23,6 +29,5 @@ interface Metadata {
      * - The document transitions from `Done` back to `Draft` to prepare the next version.
      */
     Version: string
-    LanguageCode: string
   }
 }
